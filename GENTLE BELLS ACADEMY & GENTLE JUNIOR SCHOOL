@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gentle Bells Academy & Gentle Junior School</title>
+  <style>
+    body {
+      font-family: "Poppins", Arial, sans-serif;
+      background-color: #f9f4e7; /* beige */
+      color: #222;
+      line-height: 1.7;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* ===== HEADER ===== */
+    header {
+      background-color: #000; /* black */
+      color: white;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+    }
+
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 40px;
+      flex-wrap: wrap;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo img {
+      width: 80px;
+      height: auto;
+      border-radius: 50%;
+      border: 2px solid #b22222;
+    }
+
+    .logo-text {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .logo-text h1 {
+      font-size: 22px;
+      margin: 0;
+      color: #fff;
+      text-transform: uppercase;
+    }
+
+    .logo-text p {
+      font-size: 14px;
+      color: #f0d9b5;
+      margin: 0;
+      font-style: italic;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 10px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      color: #b22222;
+    }
+
+    /* ===== HERO ===== */
+    .hero {
+      text-align: center;
+      padding: 60px 20px;
+      background-color: #b22222; /* deep red */
+      color: white;
+    }
+
+    .hero h2 {
+      margin-bottom: 10px;
+      font-size: 28px;
+      text-transform: uppercase;
+    }
+
+    .hero p {
+      font-style: italic;
+      font-size: 18px;
+      color: #f9f4e7;
+    }
+
+    /* ===== SECTIONS ===== */
+    section {
+      padding: 40px 20px;
+    }
+
+    h2 {
+      color: #b22222;
+      text-align: center;
+      text-decoration: underline;
+      margin-bottom: 20px;
+    }
+
+    p {
+      margin: 15px 40px;
+      text-align: justify;
+    }
+
+    ol, ul {
+      margin-left: 60px;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .services ul {
+      list-style-type: square;
+    }
+
+    /* ===== BUTTONS ===== */
+    .button {
+      display: inline-block;
+      background-color: #b22222;
+      color: white;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 6px;
+      margin: 10px;
+      border: 2px solid #b22222;
+      font-weight: bold;
+    }
+
+    .button:hover {
+      background-color: #fff;
+      color: #b22222;
+      border-color: #b22222;
+    }
+
+    /* ===== CONTACT ===== */
+    #contact {
+      background-color: #fff;
+      border-top: 3px solid #b22222;
+      border-bottom: 3px solid #b22222;
+      margin-top: 30px;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+
+    /* ===== MOBILE ===== */
+    @media (max-width: 768px) {
+      .navbar {
+        flex-direction: column;
+        align-items: center;
+      }
+      nav {
+        margin-top: 10px;
+      }
+      p {
+        margin: 10px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <img src="logo.jpg" alt="Gentle Bells Logo">
+        <div class="logo-text">
+          <h1>Gentle Bells Schools</h1>
+          <p>Motto: <strong>Persistence Pays</strong></p>
+        </div>
+      </div>
+      <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#mission">Mission</a>
+        <a href="#services">Services</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <div class="hero" id="home">
+    <h2>Welcome to Gentle Bells Academy & Gentle Junior School</h2>
+    <p>“Where Persistence Pays and Potential Shines”</p>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      At <strong>Gentle Bells Schools</strong>, we believe every child carries a spark of greatness.
+      Our mission as educators is to nurture that spark — helping learners grow intellectually, morally, and spiritually.
+    </p>
+    <p>
+      We provide a vibrant learning environment that blends academic excellence with discipline, creativity, and faith.
+      Our education rests on strong pillars:
+    </p>
+    <ol>
+      <li><strong>Academic Excellence</strong> – Building a foundation of knowledge, innovation, and critical thinking.</li>
+      <li><strong>Character and Values</strong> – Instilling discipline, honesty, and integrity in every learner.</li>
+      <li><strong>Talent and Skills Development</strong> – Nurturing creativity through arts, sports, and co-curricular activities.</li>
+      <li><strong>Faith and Service</strong> – Fostering gratitude, compassion, and servant leadership.</li>
+      <li><strong>Sports and Wellness</strong> – Promoting teamwork, fitness, and mental well-being.</li>
+      <li><strong>Technology and Innovation</strong> – Equipping learners with computer literacy and coding skills.</li>
+    </ol>
+  </section>
+
+  <!-- ===== MISSION ===== -->
+  <section id="mission">
+    <h2>Our Mission</h2>
+    <p>To gently give opportunities where all are encouraged to live a fulfilling life.</p>
+  </section>
+
+  <!-- ===== VISION ===== -->
+  <section id="vision">
+    <h2>Our Vision</h2>
+    <p>To serve all for better living.</p>
+  </section>
+
+  <!-- ===== SERVICES ===== -->
+  <section id="services" class="services">
+    <h2>Our Services</h2>
+    <ul>
+      <li><strong>Early Childhood Development (ECDE)</strong> – Nurturing young minds with love, care, and creativity.</li>
+      <li><strong>Primary School Education</strong> – Building strong academic and moral foundations for success.</li>
+      <li><strong>Junior Secondary School (JSS)</strong> – Preparing learners for competence-based growth and leadership.</li>
+      <li><strong>Remedial and Talent Classes</strong> – Personalized support for learners to catch up and shine in their strengths.</li>
+      <li><strong>ICT and Coding Programs</strong> – Training learners in computer literacy, coding, and innovation.</li>
+      <li><strong>Transport and Meals</strong> – Safe transport and nutritious balanced meals for all learners.</li>
+    </ul>
+  </section>
+
+  <!-- ===== ADMISSIONS ===== -->
+  <section id="admissions">
+    <h2>Admissions</h2>
+    <p>
+      Enrollment is open for both <strong>Gentle Bells Academy</strong> and <strong>Gentle Junior School</strong>.
+      We welcome learners who are eager to grow academically, spiritually, and socially.
+    </p>
+    <div style="text-align: center;">
+      <a href="admission-academy.pdf" class="button">Download Academy Admission Letter</a>
+      <a href="admission-junior.pdf" class="button">Download Junior School Admission Letter</a>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p style="text-align:center;">
+      📍 1 KM from Longonot Center, along Maai Mahiu - Naivasha Highway<br>
+      📞 <strong>0724511635</strong><br>
+      ✉️ <strong>gentlebellsschoolschool@gmail.com</strong><br>
+      Visit us today — we’d love to hear from you!
+    </p>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2025 Gentle Bells Schools. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
